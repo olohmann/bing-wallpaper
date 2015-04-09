@@ -1,4 +1,4 @@
-# bing-wallpaper
+# bing-wallpaper [![Build Status](https://secure.travis-ci.org/olohmann/bing-wallpaper.png?branch=master)](https://travis-ci.org/olohmann/bing-wallpaper)
 
 > Get or set daily bing picture as your wallpaper.
 
