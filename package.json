@@ -1,14 +1,14 @@
 {
   "name": "bing-wallpaper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set the daily bing picture as your wallpaper.",
   "main": "index.js",
   "bin": {
     "bing-wallpaper": "cli.js"
   },
-  "repository" :{ 
-    "type" : "git",
-    "url" : "https://github.com/olohmann/bing-wallpaper.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olohmann/bing-wallpaper.git"
   },
   "files": [
     "index.js",
@@ -38,6 +38,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.24",
+    "chalk": "^1.0.0",
     "meow": "^3.1.0",
     "osenv": "^0.1.0",
     "request": "^2.55.0",

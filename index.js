@@ -42,6 +42,13 @@ function getDefaultOptions() {
     };
 }
 
+function validateOptions(options) {
+    var locale = options.locale;
+    if (!/^[a-zA-Z]{2}-[a-zA-Z]{2}$/.test(locale)) {
+        return "wrong locale format. see help for details."
+    }
+}
+
 function run(options) {
     return mkdir(getTargetDir())
         .catch(directoryExistsError, function(e) {
@@ -102,6 +109,12 @@ module.exports = function(options, callback) {
 
     if (!options) {
         options = getDefaultOptions();
+    } else {
+        var errMsg = validateOptions(options)
+        if (errMsg) {
+            callback(errMsg);
+            return;
+        }
     }
 
     run(options)
