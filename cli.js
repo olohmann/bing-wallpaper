@@ -19,6 +19,6 @@ if (inputLocale) {
 
 bingWallpaper(options, function(err) {
     if (err) {
-        console.log(err);
+        console.error(err);
     }
 });
