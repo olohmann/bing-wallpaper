@@ -1,6 +1,6 @@
 # bing-wallpaper [![Build Status](https://secure.travis-ci.org/olohmann/bing-wallpaper.png?branch=master)](https://travis-ci.org/olohmann/bing-wallpaper)
 
-> Get or set daily bing picture as your wallpaper.
+> Get the daily bing picture as your wallpaper.
 
 Works on OS X, Linux and Windows.
 
