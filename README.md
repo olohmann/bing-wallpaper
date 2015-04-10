@@ -74,3 +74,7 @@ Type: `function`
 
 MIT © [Oliver Lohmann](http://oliver-lohmann.me)
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/olohmann/bing-wallpaper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
