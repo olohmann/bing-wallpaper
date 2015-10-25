@@ -1,6 +1,6 @@
-# bing-wallpaper
+# bing-wallpaper [![Build Status](https://secure.travis-ci.org/olohmann/bing-wallpaper.png?branch=master)](https://travis-ci.org/olohmann/bing-wallpaper)
 
-> Get or set daily bing picture as your wallpaper.
+> Get the daily bing picture as your wallpaper.
 
 Works on OS X, Linux and Windows.
 
@@ -73,4 +73,8 @@ Type: `function`
 ## License
 
 MIT © [Oliver Lohmann](http://oliver-lohmann.me)
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/olohmann/bing-wallpaper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
