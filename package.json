@@ -1,6 +1,6 @@
 {
   "name": "bing-wallpaper",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Set the daily bing picture as your wallpaper.",
   "main": "index.js",
   "bin": {
@@ -37,11 +37,11 @@
   "author": "Oliver Lohmann",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.9.24",
-    "chalk": "^1.0.0",
-    "meow": "^3.1.0",
-    "osenv": "^0.1.0",
-    "request": "^2.55.0",
-    "wallpaper": "^1.0.0"
+    "bluebird": "^2.10.2",
+    "chalk": "^1.1.1",
+    "meow": "^3.4.2",
+    "osenv": "^0.1.3",
+    "request": "^2.65.0",
+    "wallpaper": "^2.1.0"
   }
 }
